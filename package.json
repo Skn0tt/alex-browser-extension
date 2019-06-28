@@ -11,6 +11,7 @@
     "typescript": "^3.5.2"
   },
   "dependencies": {
-    "alex": "^7.1.0"
+    "alex": "^7.1.0",
+    "parcel": "^1.12.3"
   }
 }

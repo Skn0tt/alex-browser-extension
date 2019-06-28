@@ -1,0 +1,10 @@
+{
+  "name": "Alex",
+  "description" : "Catch insensitive, inconsiderate writing",
+  "version": "1.0",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "alex_settings/dist/index.html",
+    "default_icon": "alex_settings/icon.png"
+  }
+}
