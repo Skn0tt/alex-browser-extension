@@ -6,5 +6,19 @@
   "browser_action": {
     "default_popup": "alex_settings/dist/index.html",
     "default_icon": "alex_settings/icon.png"
-  }
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": [
+        "alex_content_script/dist/index.js"
+      ],
+      "css": [
+        "alex_content_script/index.css"
+      ]
+    }
+  ]
 }
