@@ -9,10 +9,12 @@ async function getAlexConfig() {
 }
 
 export async function getAlexErrors(input: string): Promise<AlexError[]> {
-  const { messages } = alex.text(
+  const report = alex.text(
     input,
     await getAlexConfig()
   );
+
+  const { messages } = report;
 
   return messages.map(message => {
     return message.message;

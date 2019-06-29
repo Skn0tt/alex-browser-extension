@@ -5,8 +5,6 @@ async function alexListener(evt: Event) {
   const target = evt.target as HTMLInputElement;
   const text = target.value;
 
-  console.log(text)
-
   const errors = await getAlexErrors(text);
   if (errors.length === 0) {
     hideErrors(target);
