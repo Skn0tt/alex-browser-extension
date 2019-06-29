@@ -1,13 +1,37 @@
 <html>
-  <body>
-    <h1 id="header">This is Alex.</h1>
 
-    <select id="select-profanitySureness">
-      <option value="0">0</option>
-      <option value="1">1</option>
-      <option value="2">2</option>
-    </select>
+  <head>
+    <link rel="stylesheet" href="./bootstrap.css">
+  </head>
+
+  <body>
+    <h1>
+      Alex
+    </h1>
+
+    <form>
+      <label
+        for="select-profanitySureness"
+      >
+        Profanity Likeliness Threshhold
+      </label>
+      <select
+        class="custom-select"
+        id="select-profanitySureness"
+      >
+        <option value="0">0 (unlikely)</option>
+        <option value="1">1 (maybe)</option>
+        <option value="2">2 (likely)</option>
+      </select>
+    </form>
 
     <script src="index.ts"></script>
+
+    <style>
+      body {
+        padding: 12px;
+        width: 20em;
+      }
+    </style>
   </body>
 </html>
