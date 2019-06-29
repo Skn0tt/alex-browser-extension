@@ -1,11 +1,13 @@
 import { getAlexErrors } from "./alex-errors";
 import { displayErrors, hideErrors } from "./display-errors";
 
-function alexListener(evt: Event) {
+async function alexListener(evt: Event) {
   const target = evt.target as HTMLInputElement;
   const text = target.value;
 
-  const errors = getAlexErrors(text);
+  console.log(text)
+
+  const errors = await getAlexErrors(text);
   if (errors.length === 0) {
     hideErrors(target);
   } else {

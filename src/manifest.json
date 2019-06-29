@@ -4,11 +4,12 @@
   "version": "1.0",
   "manifest_version": 2,
   "browser_action": {
-    "default_popup": "alex_settings/dist/index.html",
-    "default_icon": "alex_settings/icon.png"
+    "default_popup": "alex_options/dist/index.html",
+    "default_icon": "alex_options/icon.png"
   },
   "permissions": [
-    "activeTab"
+    "activeTab",
+    "storage"
   ],
   "content_scripts": [
     {

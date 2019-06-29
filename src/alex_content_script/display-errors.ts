@@ -8,6 +8,7 @@ const getTT = _.memoize((element: HTMLInputElement) => {
 });
 
 export function displayErrors(errors: string[], element: HTMLInputElement) {
+  console.log(errors)
   const tt = getTT(element);
   const text = errors.join("\n");
   tt.updateTitleContent(text);
