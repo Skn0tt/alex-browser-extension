@@ -3,6 +3,9 @@ all: yarn build
 yarn:
 	yarn install
 
+archive: all
+	npx web-ext build --source-dir src --overwrite-dest
+
 build: alex_options alex_content_script
 
 alex_options:
