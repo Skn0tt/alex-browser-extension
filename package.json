@@ -2,7 +2,6 @@
   "name": "alex-browser-extension",
   "version": "0.0.1",
   "description": "Catch insensitive, inconsiderate writing in your browser",
-  "main": "src/index.ts",
   "repository": "https://github.com/skn0tt/alex-browser-extension",
   "author": "Simon Knott",
   "license": "MIT",
