@@ -1,5 +1,6 @@
 import { getAlexErrors } from "./alex-errors";
 import { displayErrors, hideErrors } from "./display-errors";
+import * as _ from "lodash";
 
 async function alexListener(evt: Event) {
   const target = evt.target as HTMLInputElement;
@@ -17,9 +18,22 @@ function addAlexListener(input: HTMLInputElement) {
   input.addEventListener("input", alexListener);
 }
 
+function getAllElementsByTagName(tag: string): Element[] {
+  const elements = document.getElementsByTagName(tag);
+  return Array.from(elements);
+}
+
 function getAllTextInputs(): HTMLInputElement[] {
-  const inputCollection = document.getElementsByTagName("input");
-  return Array.from(inputCollection);
+  const inputs: Element[] = [];
+
+  inputs.push(
+    ...getAllElementsByTagName("input")
+  );
+  inputs.push(
+    ...getAllElementsByTagName("textarea")
+  );
+
+  return inputs as HTMLInputElement[];
 }
 
 function main() {

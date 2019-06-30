@@ -9,13 +9,14 @@
   },
   "homepage_url": "https://github.com/skn0tt/alex-browser-extension",
   "icons": {
-    "48": "alex_logo.svg",
-    "96": "alex_logo.svg"
+    "48": "alex_logo_48.png",
+    "96": "alex_logo_96.png",
+    "128": "alex_logo_128.png"
   },
   "manifest_version": 2,
   "browser_action": {
     "default_popup": "alex_options/dist/index.html",
-    "default_icon": "alex_logo.png"
+    "default_icon": "alex_logo_48.png"
   },
   "incognito": "spanning",
   "permissions": [

@@ -8,8 +8,16 @@ archive: all
 
 build: alex_options alex_content_script
 
-logo: src/alex_logo.svg
-	npx svgexport src/alex_logo.svg src/alex_logo.png 128:
+logo: logo_48 logo_96 logo_128
+
+logo_48: src/alex_logo.svg
+	npx svgexport src/alex_logo.svg src/alex_logo_48.png pad 48:48
+
+logo_96: src/alex_logo.svg
+	npx svgexport src/alex_logo.svg src/alex_logo_96.png pad 96:96
+
+logo_128: src/alex_logo.svg
+	npx svgexport src/alex_logo.svg src/alex_logo_128.png pad 128:128
 
 alex_options:
 	$(MAKE) -C src/alex_options/ build
