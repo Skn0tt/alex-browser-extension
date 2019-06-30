@@ -1,12 +1,24 @@
 {
-  "name": "Alex",
+  "name": "Alex - Catch insensitive, inconsiderate writing",
+  "short_name": "Alex",
   "description" : "Catch insensitive, inconsiderate writing",
   "version": "1.0",
+  "author": "Simon Knott",
+  "developer": {
+    "name": "Simon Knott",
+    "url": "https://simonknott.de"
+  },
+  "homepage_url": "https://github.com/skn0tt/alex-browser-extension",
+  "icons": {
+    "48": "alex_logo.svg",
+    "96": "alex_logo.svg"
+  },
   "manifest_version": 2,
   "browser_action": {
     "default_popup": "alex_options/dist/index.html",
-    "default_icon": "alex_options/icon.png"
+    "default_icon": "alex_logo.png"
   },
+  "incognito": "spanning",
   "permissions": [
     "activeTab",
     "storage"

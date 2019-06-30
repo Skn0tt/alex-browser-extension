@@ -11,6 +11,7 @@
     "@types/lodash": "^4.14.135",
     "@types/tether-drop": "^1.4.8",
     "parcel": "^1.12.3",
+    "svgexport": "^0.3.2",
     "typescript": "^3.5.2",
     "web-ext": "^3.1.0",
     "web-ext-types": "^3.1.0"
