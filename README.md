@@ -5,7 +5,6 @@
 - [Chrome](opjbkpkndiednghhgkilndleehjibpaf)
 - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/alex-language/)
 - [Opera]()
-- [Edge]()
 
 From [Alex](https://github.com/get-alex/alex)' Docs:
 
