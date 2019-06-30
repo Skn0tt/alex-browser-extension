@@ -8,7 +8,7 @@ archive: all
 
 build: alex_options alex_content_script
 
-logo: src/alex_logo.png
+logo: src/alex_logo.svg
 	npx svgexport src/alex_logo.svg src/alex_logo.png 128:
 
 alex_options:
