@@ -2,7 +2,7 @@
 
 # Alex Browser Extension
 
-- [Chrome]()
+- [Chrome](opjbkpkndiednghhgkilndleehjibpaf)
 - [Firefox]()
 - [Opera]()
 - [Safari]()
