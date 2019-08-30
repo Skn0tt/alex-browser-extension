@@ -4,7 +4,6 @@
 
 - [Chrome](https://chrome.google.com/webstore/detail/alex/opjbkpkndiednghhgkilndleehjibpaf)
 - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/alex-language/)
-- [Opera]()
 
 From [Alex](https://github.com/get-alex/alex)' Docs:
 
