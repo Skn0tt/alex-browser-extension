@@ -14,6 +14,10 @@ This repo hosts the code for a browser extension that checks the text you're wri
 
 ## FAQ
 
+### Privacy
+
+
+
 ### What's the *Profanity Likeliness Threshold*?
 The *Profanity Likeliness Threshhold* specifies how sure Alex needs to be about a profanity to warn you.
 From Alex` docs:
