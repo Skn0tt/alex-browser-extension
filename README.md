@@ -2,7 +2,7 @@
 
 # Alex Browser Extension
 
-- [Chrome](opjbkpkndiednghhgkilndleehjibpaf)
+- [Chrome](https://chrome.google.com/webstore/detail/alex/opjbkpkndiednghhgkilndleehjibpaf)
 - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/alex-language/)
 - [Opera]()
 
