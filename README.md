@@ -16,7 +16,8 @@ This repo hosts the code for a browser extension that checks the text you're wri
 
 ### Privacy
 
-
+The browser will scan the contents of all `<input>` and `<textarea>` elements (including password fields) on the webpage and analyze them using [alex](https://github.com/get-alex/alex/).
+Since alex does its text processing locally, your data will never leave the browser.
 
 ### What's the *Profanity Likeliness Threshold*?
 The *Profanity Likeliness Threshhold* specifies how sure Alex needs to be about a profanity to warn you.
